@@ -2,7 +2,7 @@
 react test application with vite
 
 #install dependencies
-Yarn
+yarn
 
 # run application
 yarn dev
