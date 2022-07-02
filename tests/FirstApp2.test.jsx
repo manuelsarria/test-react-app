@@ -4,9 +4,10 @@ import { FirstApp } from "../src/FirstApp"
 
 describe('Pruebas en <FisrtApp />', () => {
 
+    const title = 'Hola, soy goku';
+    
     test('debe hacer match con el snapshot', () => {
 
-        const title = 'Hola, soy goku';
         render( <FirstApp title={title}/>)
       
     });
